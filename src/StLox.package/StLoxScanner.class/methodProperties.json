@@ -1,0 +1,13 @@
+{
+	"class" : {
+		"with:" : "LB 2/1/2023 22:51" },
+	"instance" : {
+		"addToken:" : "LB 2/2/2023 00:34",
+		"addToken:literal:" : "LB 2/2/2023 00:50",
+		"advance" : "LB 2/2/2023 00:32",
+		"initialize" : "LB 2/2/2023 00:23",
+		"isAtEnd" : "LB 2/2/2023 00:28",
+		"scanToken" : "LB 2/2/2023 00:57",
+		"scanTokens" : "LB 2/2/2023 00:56",
+		"source" : "LB 2/1/2023 22:53",
+		"source:" : "LB 2/1/2023 22:53" } }

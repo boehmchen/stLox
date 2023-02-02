@@ -1,0 +1,14 @@
+{
+	"class" : {
+		"withType:lexeme:literal:line:" : "LB 2/2/2023 00:46" },
+	"instance" : {
+		"asString" : "LB 2/2/2023 00:17",
+		"lexeme" : "LB 2/2/2023 00:12",
+		"lexeme:" : "LB 2/2/2023 00:41",
+		"line" : "LB 2/2/2023 00:41",
+		"line:" : "LB 2/2/2023 00:42",
+		"literal" : "LB 2/2/2023 00:12",
+		"literal:" : "LB 2/2/2023 00:42",
+		"printOn:" : "LB 2/2/2023 00:15",
+		"tokenType" : "LB 2/2/2023 00:12",
+		"tokenType:" : "LB 2/2/2023 00:42" } }

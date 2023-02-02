@@ -1,0 +1,18 @@
+{
+	"category" : "StLox",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"source",
+		"tokens",
+		"start",
+		"current",
+		"line" ],
+	"name" : "StLoxScanner",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
