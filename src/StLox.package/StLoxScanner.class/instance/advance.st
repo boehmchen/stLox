@@ -1,3 +1,4 @@
 private
 advance
-	^ source at: current + 1
+	current := current + 1.
+	^ source at: current.

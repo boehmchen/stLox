@@ -4,4 +4,4 @@ report: aLineNumber where: aWhereDescription message: aMessage
 	Transcript show:
 		'[line ', aLineNumber, '"] Error', aWhereDescription, ': ' + aMessage; cr.
 		
-	hadError := true
+	HadError := true

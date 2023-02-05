@@ -10,7 +10,8 @@
 		"tokens",
 		"start",
 		"current",
-		"line" ],
+		"line",
+		"keywords" ],
 	"name" : "StLoxScanner",
 	"pools" : [
 		 ],

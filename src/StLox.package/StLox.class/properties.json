@@ -3,10 +3,10 @@
 	"classinstvars" : [
 		"hadError" ],
 	"classvars" : [
-		 ],
+		"HadError" ],
 	"commentStamp" : "LB 2/1/2023 22:28",
 	"instvars" : [
-		"hadError" ],
+		 ],
 	"name" : "StLox",
 	"pools" : [
 		 ],

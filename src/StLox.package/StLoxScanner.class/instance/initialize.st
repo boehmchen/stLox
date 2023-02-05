@@ -1,7 +1,9 @@
 initialize-release
 initialize
 	tokens := OrderedCollection new.
-	start := 0.
-	current := 0.
-	lineNumber := 1.
+	start := 1.
+	current := 1.
+	line := 1.
+	
+	self initializeKeywords
 	

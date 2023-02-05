@@ -3,11 +3,11 @@ scanTokens
 
 	"Iterate over the source string until we reach the end"
 	[self isAtEnd ] whileFalse: [
-		start := current
+		start := current.
 		self scanToken].
 
 	"Add EOF Token after reaching the end"
-	tokens put: (
+	tokens add: (
 		StLoxToken
 			withType: StLoxTokenType eof
 			lexeme: '' 

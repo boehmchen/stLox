@@ -1,4 +1,5 @@
-as yet unclassified
-initilize
+accessing
+tokens
 	"comment stating purpose of message"
-	
+
+	^ tokens

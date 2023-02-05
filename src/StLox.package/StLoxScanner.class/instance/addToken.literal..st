@@ -1,8 +1,8 @@
 private
 addToken: aTokenType literal: aLiteralObj
 	| text |
-	text := source from: start to: current.
-	tokens put: (
+	text := source copyFrom: start to: current.
+	tokens add: (
 		StLoxToken 
 			withType: aTokenType
 			lexeme: text

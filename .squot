@@ -1,3 +1,4 @@
 OrderedDictionary {
-	'src/StLox.package' : #SquotCypressCodeSerializer
+	'src/StLox.package' : #SquotCypressCodeSerializer,
+	'src/StLoxTests.package' : #SquotCypressCodeSerializer
 }
