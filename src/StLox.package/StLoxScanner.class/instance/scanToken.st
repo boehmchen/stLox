@@ -5,7 +5,7 @@ scanToken
 	c := self advance.
 	
 	switch := Dictionary new.
-	
+
 	"Simple lexeme"
 	switch at: $( put: [self addToken: StLoxTokenType leftParen].
 	switch at: $) put: [self addToken: StLoxTokenType rightParen].
@@ -45,7 +45,7 @@ scanToken
 		(self match: $/) 
 			"A comment goes until the end of the line"
 			ifTrue: [
-				((self peek not equal Character cr) 
+				((self peek ~= Character cr) 
 					and: (self isAtEnd not))
 					whileTrue: [self advance]
 			]

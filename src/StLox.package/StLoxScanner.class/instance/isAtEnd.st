@@ -1,3 +1,3 @@
 private
 isAtEnd
-	^ current >= source size.
+	^ current - 1 >= source size.

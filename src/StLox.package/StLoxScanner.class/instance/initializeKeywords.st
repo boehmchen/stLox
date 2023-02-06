@@ -9,7 +9,7 @@ initializeKeywords
 		at: 'class' 	put: StLoxTokenType stLoxClass;
 		at: 'else' 	put: StLoxTokenType else;
 		at: 'false' 	put: StLoxTokenType false;
-		at: 'for' 		put: StLoxTokenType for;
+		at: 'for' 	put: StLoxTokenType for;
 		at: 'fun' 	put: StLoxTokenType fun;
 		at: 'if' 		put: StLoxTokenType if;
 		at: 'nil' 		put: StLoxTokenType nil;

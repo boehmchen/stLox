@@ -4,10 +4,10 @@ identifier
 	
 	| text tokenType |
 
-	(self isAlphaNumeric: self peek)
-		ifTrue: [self advance].
+	[self isAlphaNumeric: self peek]
+		whileTrue: [self advance].
 		
-	text := self source copyFrom: start to: current.
+	text := self source copyFrom: start to: current - 1.
 	
 	tokenType := self keywords at: text ifAbsent: [StLoxTokenType identifier] value.
-	self addToken: StLoxTokenType identifier
+	self addToken: tokenType
