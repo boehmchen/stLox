@@ -1,0 +1,14 @@
+{
+	"category" : "StLox",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"expr" ],
+	"name" : "Grouping",
+	"pools" : [
+		 ],
+	"super" : "Expr",
+	"type" : "normal" }

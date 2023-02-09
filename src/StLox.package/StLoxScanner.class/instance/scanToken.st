@@ -7,38 +7,38 @@ scanToken
 	switch := Dictionary new.
 
 	"Simple lexeme"
-	switch at: $( put: [self addToken: StLoxTokenType leftParen].
-	switch at: $) put: [self addToken: StLoxTokenType rightParen].
-	switch at: ${ put: [self addToken: StLoxTokenType leftBrace].
-	switch at: $} put: [self addToken: StLoxTokenType rightParen].
-	switch at: $, put: [self addToken: StLoxTokenType comma].
-	switch at: $. put: [self addToken: StLoxTokenType dot].
-	switch at: $- put: [self addToken: StLoxTokenType minus].
-	switch at: $+ put: [self addToken: StLoxTokenType plus].
-	switch at: $; put: [self addToken: StLoxTokenType semicolon].
-	switch at: $* put: [self addToken: StLoxTokenType star].
+	switch at: $( put: [self addToken: TokenType leftParen].
+	switch at: $) put: [self addToken: TokenType rightParen].
+	switch at: ${ put: [self addToken: TokenType leftBrace].
+	switch at: $} put: [self addToken: TokenType rightParen].
+	switch at: $, put: [self addToken: TokenType comma].
+	switch at: $. put: [self addToken: TokenType dot].
+	switch at: $- put: [self addToken: TokenType minus].
+	switch at: $+ put: [self addToken: TokenType plus].
+	switch at: $; put: [self addToken: TokenType semicolon].
+	switch at: $* put: [self addToken: TokenType star].
 	"/ needs a special treatment because of comments"
 	
 	"Operators"
 	switch at: $! put: [self addToken: (
 		self match: $= 
-			IfTrue: StLoxTokenType bangEqual 
-			IfFalse: StLoxTokenType bang)].
+			IfTrue: TokenType bangEqual 
+			IfFalse: TokenType bang)].
 		
 	switch at: $= put: [self addToken: (
 		(self match: $=)
-			ifTrue: StLoxTokenType equalEqual 
-			ifFalse: StLoxTokenType equal)].
+			ifTrue: TokenType equalEqual 
+			ifFalse: TokenType equal)].
 		
 	switch at: $< put: [self addToken: (
 		(self match: $=)
-			ifTrue: StLoxTokenType lessEqual 
-			ifFalse: StLoxTokenType less)].
+			ifTrue: TokenType lessEqual 
+			ifFalse: TokenType less)].
 		
 	switch at: $> put: [self addToken: (
 		(self match: $=)
-			ifTrue: StLoxTokenType greaterEqual 
-			ifFalse: StLoxTokenType greater)].
+			ifTrue: TokenType greaterEqual 
+			ifFalse: TokenType greater)].
 	
 	"Longer Lexemes"
 	switch at: $/ put: [
@@ -49,7 +49,7 @@ scanToken
 					and: (self isAtEnd not))
 					whileTrue: [self advance]
 			]
-			ifFalse: [ self addToken: StLoxTokenType slash.]
+			ifFalse: [ self addToken: TokenType slash.]
 		].
 	
 	"Meaningless characters: newlines and whitespace -> ignore it"

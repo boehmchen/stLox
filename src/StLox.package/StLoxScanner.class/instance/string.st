@@ -25,6 +25,6 @@ string
 	"Trim the surrounding quotes"
 	value := source copyFrom: start + 1 to: current - 2. " -1 due to inclusive and -1 due to quotation mark."
 	
-	self addToken: StLoxTokenType literal: value.
+	self addToken: TokenType literal: value.
 	
 	

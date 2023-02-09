@@ -1,0 +1,16 @@
+{
+	"category" : "StLox",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"left",
+		"operator",
+		"right" ],
+	"name" : "Binary",
+	"pools" : [
+		 ],
+	"super" : "Expr",
+	"type" : "normal" }

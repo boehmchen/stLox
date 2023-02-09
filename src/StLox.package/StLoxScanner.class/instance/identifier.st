@@ -9,5 +9,5 @@ identifier
 		
 	text := self source copyFrom: start to: current - 1.
 	
-	tokenType := self keywords at: text ifAbsent: [StLoxTokenType identifier] value.
+	tokenType := self keywords at: text ifAbsent: [TokenType identifier] value.
 	self addToken: tokenType

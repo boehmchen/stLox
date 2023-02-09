@@ -1,0 +1,15 @@
+{
+	"category" : "StLox",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"literal",
+		"value" ],
+	"name" : "Literal",
+	"pools" : [
+		 ],
+	"super" : "Expr",
+	"type" : "normal" }

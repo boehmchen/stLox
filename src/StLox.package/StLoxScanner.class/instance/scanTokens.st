@@ -8,8 +8,8 @@ scanTokens
 
 	"Add EOF Token after reaching the end"
 	tokens add: (
-		StLoxToken
-			withType: StLoxTokenType eof
+		Token
+			withType: TokenType eof
 			lexeme: '' 
 			literal: nil
 			line: line).

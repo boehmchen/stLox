@@ -15,4 +15,4 @@ number
 		
 	value := (self source copyFrom: start to: current - 1) asNumber.
 	
-	self addToken: StLoxTokenType number literal: value.
+	self addToken: TokenType number literal: value.

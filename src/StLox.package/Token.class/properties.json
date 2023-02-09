@@ -6,8 +6,11 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"value" ],
-	"name" : "StLoxTokenType",
+		"tokenType",
+		"lexeme",
+		"literal",
+		"line" ],
+	"name" : "Token",
 	"pools" : [
 		 ],
 	"super" : "Object",

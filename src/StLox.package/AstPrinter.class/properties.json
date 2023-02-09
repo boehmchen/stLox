@@ -1,0 +1,14 @@
+{
+	"category" : "StLox",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "AstPrinter",
+	"pools" : [
+		 ],
+	"super" : "Visitor",
+	"type" : "normal" }

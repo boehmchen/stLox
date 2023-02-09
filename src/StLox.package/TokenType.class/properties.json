@@ -1,0 +1,14 @@
+{
+	"category" : "StLox",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"value" ],
+	"name" : "TokenType",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
